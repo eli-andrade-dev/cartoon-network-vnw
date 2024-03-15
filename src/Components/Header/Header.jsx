@@ -1,6 +1,5 @@
 import React from "react"
 import * as S from "./StyleHeader"
-import styled from "styled-components"
 
 import Cn from "./imagensheader/logo cartoon.png"
 import Jogos from "./imagensheader/jogos.png"
@@ -23,6 +22,7 @@ function Header () {
             <h2>PROGRAMAÇÃO</h2>
          </S.Div>
       </section>
+      
       </S.HeaderStyle>
    )
 }
