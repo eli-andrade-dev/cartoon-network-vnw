@@ -1,10 +1,10 @@
 import React from "react"
-import * as S from "./StyleHeader"
 
 import Cn from "./imagensheader/logo cartoon.png"
 import Jogos from "./imagensheader/jogos.png"
 import Programaçao from "./imagensheader/programaçao.png"
 
+import * as S from "./StyleHeader"
 
 function Header () {
    return(

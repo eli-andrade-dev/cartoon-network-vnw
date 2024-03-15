@@ -40,11 +40,11 @@ function Programacao() {
                 <h2>Desenhos da manhã</h2>
 
                 {desenhoAntesMeioDia.map((item) => (
-                    <div>
+                    <S.CardManha>
                         <h3> {item.nome} </h3>
                         <h3> {item.hora}  </h3>
                         <img src={item.imagem} alt={item.nome} />
-                    </div>
+                    </S.CardManha>
 
                 ))}
 

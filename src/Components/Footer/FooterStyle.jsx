@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const FooterStyle = styled.header`
+export const FooterStyle = styled.footer`
    height: 20vh;
    background: #EDD820;
    display: flex;
